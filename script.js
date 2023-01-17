@@ -7,7 +7,7 @@ function allclear(){
 }
 
 function displayresult(){
-    result.value = eval(result.value)
+    result.value = eval(result.value).toFixed(2)
 }
 
 function backspace(){
